@@ -21,7 +21,7 @@ class Aluno:
             "Série": self.serie,
             "Turno": self.turno,
             "Presença": self.presenca,
-            "Nota": Self.nota
+            "Nota": self.nota
         }
 
 # =========================
@@ -58,7 +58,7 @@ def apagar(nome):
     salvar(df)
 
 # =========================
-# Interface (simples)
+# Interface 
 # =========================
 st.title("Controle de Alunos")
 
